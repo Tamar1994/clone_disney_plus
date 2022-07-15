@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(131, 131, 131);
+}
+
+header {
+    background-color: rgb(87, 85, 85);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    margin-left: 30px;
+}
+
+#container-nav{
+    display: flex;
+    width: 85vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container-nav nav{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+#container-nav nav p {
+    margin-left: 10px;
+}
+
+#container-nav nav p:hover{
+    color: rgba(255, 255, 255, 0.589);
+    cursor: pointer;
+}
+
+#foto-perfil {
+    background-image: url(/img/foto-perfil.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 500vw;
+    background-color: rgba(255, 255, 255, 0.322);
+    display: flex;
+    transition: margin-left 1s;
+    align-items: center;    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.opcao {
+    background-color: white;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    width: 99vw;
+    height: 60vh;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.botao {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.445);
+    cursor: pointer;
+    text-align: center;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.623);
+    font-weight: bolder;
+}
+
+#botao2 {
+    right: 0;
+}
+
+#botao1{
+    left: 0;
+}
+
+.logos {
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+
+#opcao1 {
+    background-image: url(/img/msmarvel.jpg);
+    background-size: cover;
+}
+
+#opcao2 {
+    background-image: url(/img/cavaleirolua.jpg);
+    background-size: cover;
+}
+
+#opcao3 {
+    background-image: url(/img/baymax.jpg);
+    background-size: cover;
+}
+
+#opcao4 {
+    background-image: url(/img/loki.jpg);
+    background-size: cover;
+}
+
+#opcao5 {
+    background-image: url(/img/obiwan.jpg);
+    background-size: cover;
+}
